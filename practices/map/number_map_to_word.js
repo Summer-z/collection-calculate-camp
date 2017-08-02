@@ -11,6 +11,6 @@ function number_map_to_word(collection) {
           }
           
           return result;
-};
+}
 
 module.exports = number_map_to_word;

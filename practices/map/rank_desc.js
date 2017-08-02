@@ -12,6 +12,6 @@ function compareFunction(a, b) {
 function rank_desc(collection) {
           let result = collection;
           return result.sort(compareFunction);
-};
+}
 
 module.exports = rank_desc;

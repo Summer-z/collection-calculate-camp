@@ -7,6 +7,6 @@ function map_to_four_multiples_add_one(collection) {
           }
           
           return result;
-};
+}
 
 module.exports = map_to_four_multiples_add_one;

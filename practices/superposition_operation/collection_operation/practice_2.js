@@ -1,8 +1,25 @@
 'use strict';
 
-function hybrid_operation_to_uneven(collection) {
+function old(num) {
+          if(num%2 !== 0) {
+                    return true;
+          }
+          return false;
+}
 
-  //在这里写入代码
+function numCalculation(num) {
+          return num*3+2;
+}
+
+function hybrid_operation_to_uneven(collection) {
+          let result = [];
+          for(let item of collection) {
+                    if(old(item)) {
+                              result.push(numCalculation(item));      
+                    }
+          }
+          
+          return result;
 }
 
 module.exports = hybrid_operation_to_uneven;

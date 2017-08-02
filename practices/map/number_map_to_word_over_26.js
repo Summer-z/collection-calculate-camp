@@ -17,6 +17,6 @@ function number_map_to_word_over_26(collection) {
           }
           
           return result;
-};
+}
 
 module.exports = number_map_to_word_over_26;

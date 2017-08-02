@@ -1,6 +1,5 @@
 'use strict';
 
-'use strict';
 function compareFunction(a, b) {
           if(a < b) {
                     return -1;

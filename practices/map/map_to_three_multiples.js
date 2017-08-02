@@ -7,6 +7,6 @@ function map_to_three_multiples(collection){
           }
           
           return result;
-};
+}
 
 module.exports = map_to_three_multiples;

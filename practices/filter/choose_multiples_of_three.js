@@ -1,8 +1,15 @@
 'use strict';
 
 function choose_multiples_of_three(collection) {
-
-  //在这里写入代码
+          let triArr = [];
+          for (let item of collection) {
+                    if (item%3 === 0) {
+                              triArr.push(item);
+                    }
+          }
+          
+          return triArr;
+          
 }
 
 module.exports = choose_multiples_of_three;

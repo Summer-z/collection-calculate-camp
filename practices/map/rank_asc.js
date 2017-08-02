@@ -1,6 +1,19 @@
 'use strict';
-var rank_asc = function(collection){
-  return [6,5,4,3,2];
-};
+
+'use strict';
+function compareFunction(a, b) {
+          if(a < b) {
+                    return -1;
+          } else if (a > b) {
+                    return 1;
+          }
+          
+          return 0;    
+}
+
+function rank_asc(collection) {
+          let result = collection;
+          return result.sort(compareFunction).reverse();        
+} 
 
 module.exports = rank_asc;
